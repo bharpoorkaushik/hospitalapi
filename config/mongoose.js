@@ -1,5 +1,5 @@
 const mongoose = require('mongoose'); //requiring mongoose
-mongoose.connect(process.env.MONGODB_URL || 'mongodb://localhost/hospital_api_development'); //connecting to mongodb
+mongoose.connect('mongodb+srv://bharpoorkaushik:Vriddhi2021@cluster0.hbtctqx.mongodb.net/hospitalapi?retryWrites=true&w=majority'); //connecting to mongodb
 const db = mongoose.connection; //acquiring the connection
 
 db.on('error', console.error.bind(console, 'Error in connecting to MongoDB!')); //if error occured
