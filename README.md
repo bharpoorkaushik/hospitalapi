@@ -63,6 +63,6 @@ Folder Structure
     e. config - Contains all the config files.
 ## Authors
 
-- [@manisha](https://github.com/manisha2607/Hospital-api)
+- [@bharpoor](https://github.com/bharpoorkaushik/hospitalapi)
 
   
